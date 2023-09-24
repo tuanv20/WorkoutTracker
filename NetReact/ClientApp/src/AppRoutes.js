@@ -1,5 +1,4 @@
-import Todolist from "./components/Todolist/Todolist";
-import Itemlist from "./components/Items/ItemCollection"
+import WorkoutList from "./components/Items/WorkoutList";
 import { Home } from "./components/Home";
 
 const AppRoutes = [
@@ -9,11 +8,7 @@ const AppRoutes = [
   },
   {
       path: '/todolist',
-      element: <Todolist />
-  },
-  {
-      path: '/itemList',
-      element: <Itemlist />
+      element: <WorkoutList />
   },
 ];
 
